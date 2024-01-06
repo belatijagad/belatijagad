@@ -22,9 +22,9 @@ function Hero() {
 }
 
 function More() {
-  const projectsText = "Tes";
-  const awardsText = "Tes";
-  const blogsText = "Tes";
+  const projectsText = "This is the project card";
+  const awardsText = "This is the awards card";
+  const blogsText = "This is the blogs card";
   return(
     <div className="min-h-screen justify-center align-center items-center flex flex-col">
       <h1 className="text-4xl py-8">Know more about me through</h1>
