@@ -16,7 +16,7 @@ const raleway = Raleway({
   display: 'swap',
 })
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: 'Belati Jagad Bintang Syuhada',
   description: 'My portofolio website',
 }
