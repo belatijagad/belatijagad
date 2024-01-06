@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`select-none ${montserrat.variable} ${raleway.variable}`}>
+      <body className="select-none">
         <Header />
         {children}
         <Footer />
