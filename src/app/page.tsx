@@ -16,7 +16,7 @@ function Hero() {
   return(
     <div className="flex flex-col min-h-screen justify-center align-center">
       <h1 className="font-bold text-8xl">Halo!</h1>
-      <p className="text-3xl">I'm Abel, an undergraduate Computer Science student that has strong interest in Machine Learning.</p>
+      <p className="text-3xl">I&apos;m Abel, an undergraduate Computer Science student that has strong interest in Machine Learning.</p>
     </div>
   )
 }
