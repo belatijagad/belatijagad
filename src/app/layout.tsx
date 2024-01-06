@@ -4,19 +4,19 @@ import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
   display: 'swap',
 })
 
-export const raleway = Raleway({
+const raleway = Raleway({
   subsets: ['latin'],
   variable: '--font-raleway',
   display: 'swap',
 })
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: 'Belati Jagad Bintang Syuhada',
   description: 'My portofolio website',
 }
@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="select-none">
+      <body className={`select-none ${montserrat.variable} ${raleway.variable}`}>
         <Header />
         {children}
         <Footer />
