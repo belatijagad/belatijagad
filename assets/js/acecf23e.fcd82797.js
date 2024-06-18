@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbelatijagad=self.webpackChunkbelatijagad||[]).push([[903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog"}')}}]);

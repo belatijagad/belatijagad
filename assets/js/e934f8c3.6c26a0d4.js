@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbelatijagad=self.webpackChunkbelatijagad||[]).push([[744],{6769:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/belatijagad/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
